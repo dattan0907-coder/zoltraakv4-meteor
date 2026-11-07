@@ -1,0 +1,30 @@
+modLoader="javafml"
+loaderVersion="[1,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="zoltraak_moves"
+version="1.0.0"
+displayName="Zoltraak Moves"
+description='''Dash (R) and Double Jump (F) while holding the Zoltraak Staff.'''
+
+[[dependencies.zoltraak_moves]]
+modId="neoforge"
+type="required"
+versionRange="[21.1.0,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.zoltraak_moves]]
+modId="minecraft"
+type="required"
+versionRange="[1.21.1]"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.zoltraak_moves]]
+modId="zoltraak"
+type="required"
+versionRange="[1.0.0,)"
+ordering="AFTER"
+side="BOTH"
